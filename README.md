@@ -1,3 +1,6 @@
 # python-api-study
 
-pythonを使用したAPI作成の学習
+## python を使用した API 作成の学習
+
+cd app
+uvicorn main:app --reload
