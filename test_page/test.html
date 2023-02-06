@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <form action="http://localhost:8000/json_post" method="post">
+            <!--
+            name : <input type="text" id="name" name="name" /><br />
+            age : <input type="number" id="age" name="age" />
+            -->
+
+            <input type="file" name="input_file" />Json選択<br />
+
+            <input type="submit" />
+        </form>
+
+        <form action="http://localhost:8000/get_item" method="get" id="fooo">
+            name : <input type="text" id="name" name="name" /><br />
+            age : <input type="number" id="age" name="age" />
+
+            <input type="submit" value="get" />
+        </form>
+    </body>
+</html>
